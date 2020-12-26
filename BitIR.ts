@@ -61,7 +61,7 @@ namespace BitIR {
      * Read IR sensor value V2.
      */
 
-    //% advanced=true shim=Mbit_IR::irCode
+    //% advanced=true shim=Bit_IR::irCode
     function irCode(): number {
         return 0;
     }
@@ -85,7 +85,7 @@ namespace BitIR {
     export function IR_callbackUserV2(cb: (message: number) => void) {
         state = 1;
         control.onEvent(11, 22, function() {
-            cb(irstate)
+            cb(irstate);
         }) 
     }
 
@@ -123,7 +123,7 @@ namespace BitIR {
         if(state == 1){
             irstate = valuotokeyConversion();
             if(irstate != -1){
-                control.raiseEvent(11, 22)
+                control.raiseEvent(11, 22);
             }
         }
         
