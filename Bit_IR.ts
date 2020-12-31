@@ -9,7 +9,7 @@ modified by chengengyue
 
 //% color=50 weight=11
 //% icon="\uf1eb"
-//% block="Bit_IR_V1.5"
+//% block="Mbit_IR_V1.5"
 namespace Bit_IR {
 
     /**
