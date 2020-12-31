@@ -1,5 +1,5 @@
 mbit_IR for micro-bit
-Extension for Yahboom Mbit_IR V2.0
+Extension for Yahboom Mbit_IR V2.0.2
 
 Note: IR receiver for Yahboom receiver
 
