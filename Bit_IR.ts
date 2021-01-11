@@ -15,10 +15,10 @@ namespace Bit_IR {
     /**
     * initialization
     */
-    //% blockId=Mbit_IR_init
+    //% blockId=Bit_IR_init
     //% blockGap=20 weight=90
     //% block="connect ir receiver to %pin"
-    //% shim=Mbit_IR::init
+    //% shim=Bit_IR::init
     export function init(pin: Pins): void {
       return
     }
@@ -26,10 +26,10 @@ namespace Bit_IR {
     /**
     * button pushed.
     */
-    //% blockId=Mbit_IR_received_event
+    //% blockId=Bit_IR_received_event
     //% blockGap=20 weight=89
     //% block="on |%btn| button pressed"
-    //% shim=Mbit_IR::onPressEvent
+    //% shim=Bit_IR::onPressEvent
     export function onPressEvent(btn: RemoteButton, body:Action): void {
       return
     }
