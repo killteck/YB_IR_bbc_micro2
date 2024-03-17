@@ -8,7 +8,6 @@
     },
     "files": [
         "BitIR.ts",
-        "Bit_IR.ts",
         "enums.d.ts",
         "Bit_IR.cpp",
         "ReceiverIR.cpp",
